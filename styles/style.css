@@ -318,6 +318,7 @@
   padding: 0;
   margin: 100px 0 0;
   display: flex;
+  justify-content: center;
 }
 
 .step {
@@ -373,6 +374,7 @@
 }
 
 .footer__column-heading {
+  margin-bottom: 20px;
 }
 
 .footer__list {
@@ -382,6 +384,7 @@
 }
 
 .footer__list-item {
+  margin-bottom: 16px;
 }
 
 .footer__column-link {
@@ -391,10 +394,12 @@
 }
 
 .footer__social-icon {
-  size: 16px;
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
 }
 
 .footer__copyright {
-  margin-left: 80px;
-  bottom: 60px;
+  padding-left: 80px;
+  padding-bottom: 60px;
 }
