@@ -97,7 +97,7 @@
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
   background-position: bottom right;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   padding: 100px 0 140px;
 }
@@ -126,7 +126,7 @@
   margin-top: 68px;
   display: flex;
   gap: 40px;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   list-style-type: none;
   padding: 0;
